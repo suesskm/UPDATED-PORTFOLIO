@@ -13,17 +13,16 @@ border: solid black 1px;
 }
 
 h1{
-    font-size: 2em;
-    margin: 0;
-    padding: 0;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
 }
 
 .parent-container{
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 100%;
     background-color: yellow;
-    justify-content: space-between;
     flex-direction: row;
 
 }
@@ -31,31 +30,170 @@ h1{
 .flex-container1{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 60vh;
+    width: 24%;
+    height: 55vh;
     background-color: red;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* object-fit: contain; */
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top:10px;
 }
 
 .flex-container2{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 60vh;
+    width: 24%;
+    height: 55vh;
     background-color: rgb(67, 118, 170);
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    object-fit: contain;
+    margin-top:10px;
 }
 
 .flex-container3{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 60vh;
+    width: 24%;
+    height: 55vh;
     background-color: rgb(34, 188, 129);
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    object-fit: contain;
+    margin-top:10px;
 }
 
 .flex-container4{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 60vh;
+    width: 24%;
+    height: 55vh;
     background-color: rgb(121, 23, 113);
+    margin-bottom: 10px;
+    object-fit: contain;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:10px;
+}
+
+
+.flex-container5{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 55vh;
+    background-color: rgb(219, 100, 41);
+    margin-bottom: 10px;
+    object-fit: contain;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:10px;
+}
+
+.flex-container6{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 55vh;
+    background-color: rgb(219, 100, 41);
+    margin-bottom: 10px;
+    object-fit: contain;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:10px;
+}
+
+.flex-container7{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 55vh;
+    background-color: rgb(219, 100, 41);
+    margin-bottom: 10px;
+    object-fit: contain;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:10px;
+}
+
+.flex-container8{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 55vh;
+    background-color: rgb(219, 100, 41);
+    margin-bottom: 10px;
+    object-fit: contain;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:10px;
+}
+
+
+.images {
+    width: 100%; /* Set the width of the container */
+    height: 100%; /* Set the height of the container */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+    object-position: 50% 20%;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+#otherdans{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+
+    
+}  
+
+#otherdans:hover{
+    opacity: 0.3;
+}
+
+#lamosca{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+#lamosca:hover{
+    opacity: 0.3;
+}
+
+#postmodernzine{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+
+#postmodernzine:hover{
+    opacity: 0.3;
+}
+#designforum{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+
+#designforum:hover{
+    opacity: 0.3;
 }
