@@ -5,11 +5,18 @@ canvas{
     display:block;
 }
 
+a{
+    text-decoration: none;
+   
+
+}
+
 .flex-container-header{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 border: solid black 1px;
+font-family: 'Noto', serif;
 }
 
 h1{
@@ -22,7 +29,6 @@ h1{
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    background-color: yellow;
     flex-direction: row;
 
 }
@@ -32,7 +38,6 @@ h1{
     flex-direction: column;
     width: 24%;
     height: 55vh;
-    background-color: red;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
@@ -47,7 +52,6 @@ h1{
     flex-direction: column;
     width: 24%;
     height: 55vh;
-    background-color: rgb(67, 118, 170);
     margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
@@ -60,7 +64,6 @@ h1{
     flex-direction: column;
     width: 24%;
     height: 55vh;
-    background-color: rgb(34, 188, 129);
     margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
@@ -73,7 +76,6 @@ h1{
     flex-direction: column;
     width: 24%;
     height: 55vh;
-    background-color: rgb(121, 23, 113);
     margin-bottom: 10px;
     object-fit: contain;
     margin-left: 5px;
@@ -87,10 +89,9 @@ h1{
     flex-direction: column;
     width: 24%;
     height: 55vh;
-    background-color: rgb(219, 100, 41);
     margin-bottom: 10px;
     object-fit: contain;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 5px;
     margin-top:10px;
 }
@@ -100,7 +101,6 @@ h1{
     flex-direction: column;
     width: 24%;
     height: 55vh;
-    background-color: rgb(219, 100, 41);
     margin-bottom: 10px;
     object-fit: contain;
     margin-left: 5px;
@@ -113,7 +113,6 @@ h1{
     flex-direction: column;
     width: 24%;
     height: 55vh;
-    background-color: rgb(219, 100, 41);
     margin-bottom: 10px;
     object-fit: contain;
     margin-left: 5px;
@@ -126,7 +125,6 @@ h1{
     flex-direction: column;
     width: 24%;
     height: 55vh;
-    background-color: rgb(219, 100, 41);
     margin-bottom: 10px;
     object-fit: contain;
     margin-left: 5px;
@@ -195,5 +193,34 @@ h2{
 }
 
 #designforum:hover{
+    opacity: 0.3;
+}
+
+#longing{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+
+#longing:hover{
+    opacity: 0.3;
+}
+
+#bjorkposter{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+#bjorkposter:hover{
+    opacity: 0.3;
+}
+
+#risocal{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+}
+
+#risocal:hover{
     opacity: 0.3;
 }
