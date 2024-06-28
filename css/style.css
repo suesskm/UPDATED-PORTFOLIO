@@ -7,22 +7,52 @@ canvas{
 
 a{
     text-decoration: none;
-   
+   color: black;
 
 }
 
 .flex-container-header{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
 border: solid black 1px;
-font-family: 'Noto', serif;
+justify-content: space-between;
+font-family: 'Playfair Display SC', serif;
+padding-top: 10px;
+font-size: 16px;
+padding-left: 5px;
+padding-right: 5px;
+color: black;
 }
 
-h1{
+#home{
     font-size: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
+    padding-left: 10px;
+}
+
+#home:hover{
+    background-color: yellow;
+
+}
+
+#about{
+    font-size: 18px;
+    color: black;
+    padding-left: 10px;
+}
+
+#about:hover{
+    background-color: yellow;
+}
+
+#contact{
+    font-size: 18px;
+    color: black;
+    padding-left: 10px;
+}
+
+#contact:hover{
+    background-color: yellow;
 }
 
 .parent-container{
@@ -143,7 +173,7 @@ h1{
     width: 100%;
     height: 100%;
     object-fit: cover; /* Cover the container while maintaining aspect ratio */
-    object-position: 50% 20%;
+    
 }
 
 h2{
@@ -160,6 +190,7 @@ h2{
     width: 100%;
     object-fit: cover;
     height: 90%;
+    object-position: 50% 20%;
 
     
 }  
@@ -200,6 +231,7 @@ h2{
     width: 100%;
     object-fit: cover;
     height: 90%;
+    object-position: 50% 100%;
 }
 
 #longing:hover{
@@ -219,6 +251,7 @@ h2{
     width: 100%;
     object-fit: cover;
     height: 90%;
+    object-position: 50% 80%;
 }
 
 #risocal:hover{
