@@ -38,7 +38,7 @@ a:hover{
     flex-direction: row;
     border: solid black 1px;
     justify-content: space-between;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Michroma', serif;
     padding-top: 10px;
     font-size: 16px;
     padding-left: 5px;
@@ -81,7 +81,7 @@ a:hover{
 
 h3{
     font-size: 60px;
-    color: red;
+    color: yellowgreen;
     font-family: 'Pinyon Script', cursive;
     justify-content: center;
     text-align: center;
