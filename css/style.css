@@ -179,7 +179,7 @@ color: black;
 h2{
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
-    padding-left: 20px;
+   
     padding-bottom: 20px;
     justify-content: center;
     text-align: center;
@@ -255,5 +255,16 @@ h2{
 }
 
 #risocal:hover{
+    opacity: 0.3;
+}
+
+#perfect-cup{
+    width: 100%;
+    object-fit: cover;
+    height: 90%;
+    object-position: 50% 80%;
+}
+
+#perfect-cup:hover{
     opacity: 0.3;
 }

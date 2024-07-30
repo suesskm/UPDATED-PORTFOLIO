@@ -81,7 +81,7 @@ a:hover{
 
 h3{
     font-size: 60px;
-    color: yellowgreen;
+    color: black;
     font-family: 'Pinyon Script', cursive;
     justify-content: center;
     text-align: center;
@@ -89,6 +89,8 @@ h3{
 
 
 }
+
+
 
 #lamosca{
     width: 100%;
