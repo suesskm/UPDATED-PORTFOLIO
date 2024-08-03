@@ -14,9 +14,9 @@ a{
 .flex-container-header{
 display: flex;
 flex-direction: row;
-border: solid black 1px;
+border: dotted black 1px;
 justify-content: space-between;
-font-family: 'Michroma', serif;
+font-family: 'courier new', serif;
 padding-top: 10px;
 font-size: 16px;
 padding-left: 5px;
@@ -179,7 +179,7 @@ color: black;
 h2{
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
-   
+   font-weight: bold;
     padding-bottom: 20px;
     justify-content: center;
     text-align: center;

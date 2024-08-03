@@ -7,21 +7,44 @@ canvas{
 }
 
 
-.flex-container-pages{
-    display: block;
+.flex-container-pages {
+    display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row; /* Change from column to row */
     margin-left: auto;
     margin-right: auto;
-     width: 50%;
-     height: 50%; 
-     /* padding-right: 400px;
-     padding-left: 400px; */
-    
-     font-family: 'Montserrata', sans-serif;
-    justify-content: spacearound;
-    flex: wrap;
-} 
+    width: 100%; /* Ensure the parent container is wide enough */
+    height: auto; 
+    justify-content: space-around; /* Corrected from spacearound */
+    flex-wrap: wrap; /* Corrected from flex: wrap */
+}
+
+.flex-container-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%; /* Adjust the width as needed */
+    height: auto;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.flex-container-images {
+    display: flex;
+    flex-direction: column;
+    width: 60%; /* Adjust the width as needed */
+    height: auto;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+
+
+
 
 a{
     text-decoration: none;
@@ -36,9 +59,9 @@ a:hover{
 .flex-container-header{
     display: flex;
     flex-direction: row;
-    border: solid black 1px;
+    border: dotted black 1px;
     justify-content: space-between;
-    font-family: 'Michroma', serif;
+    font-family: 'courier new', serif;
     padding-top: 10px;
     font-size: 16px;
     padding-left: 5px;
@@ -80,16 +103,25 @@ a:hover{
 
 
 h3{
-    font-size: 60px;
+    font-size: 50px;
     color: black;
-    font-family: 'Pinyon Script', cursive;
+    font-family: 'Almendra Display', serif;
     justify-content: center;
     text-align: center;
     margin-bottom: 0px;
-
-
 }
 
+h4{
+    font-size: 14px;
+    color: black;
+    font-family: 'courier new', serif;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    padding:0;
+    margin-bottom: 0px;
+}
 
 
 #lamosca{
@@ -132,15 +164,11 @@ h3{
 }
 
 p{
-    font-size: 16px;
+    font-size: 14px;
     color: #000000;
-    padding-top: 20px;
-    /* padding-right: 100px;
-    padding-left: 100px; */
-    padding-bottom: 20px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: 'Noto Serif', serif;
+    padding: 30px;
+    font-family: 'quicksand', sans-serif;
+    font-weight: 300;
 
 }
 
