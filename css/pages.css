@@ -107,8 +107,9 @@ h3{
     color: black;
     font-family: 'Almendra Display', serif;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     margin-bottom: 0px;
+    padding-left:30px;
 }
 
 h4{
@@ -116,11 +117,12 @@ h4{
     color: black;
     font-family: 'courier new', serif;
     font-weight: bold;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
     margin-top: 0px;
     padding:0;
     margin-bottom: 0px;
+    padding-left: 30px;
 }
 
 
