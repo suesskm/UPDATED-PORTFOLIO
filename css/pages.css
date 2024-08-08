@@ -193,7 +193,7 @@ p{
 .mobile-container {
     max-width: 480px;
     margin: auto;
-    background-color: #F2F0EB;
+   
     height: 500px;;
     border-radius: 10px;
     display: none;
@@ -211,13 +211,15 @@ p{
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'courier new', sans-serif;
-    font-size: 17px;
+    font-size: 10px;
     display: none;
-    background-color: #F2F0EB;
+    font-weight: 300;
+    text-align: left;
+   
   }
   
   .topnav a.icon {
-   background-color:#F2F0EB ;
+  
     display: none;
     position: absolute;
     right: 0;
@@ -225,13 +227,13 @@ p{
   }
   
   .topnav a:hover {
-    background-color: #da407b;
+    background-color: plum;
    
   }
   
   .active {
 
-    color: #F2F0EB;
+   color: white;
   }
 
 
@@ -359,6 +361,15 @@ textarea {
 
 
 @media screen and (max-width: 480px) {
+
+
+.flex-container-header{
+    display:none;
+}
+
+
+
+
     .flex-container-pages {
         flex-direction: column;
         width: 100%;
@@ -397,18 +408,56 @@ textarea {
     }
 
     .mobile-container {
-        display: block; /* Ensure it's visible on mobile */
-    }
-
-    .topnav a {
+        max-width: 480px;
+        margin: auto;
+       
+        height: 500px;;
+        border-radius: 10px;
         display: block;
-        text-align: center;
-        padding: 12px;
-    }
-
-    .topnav a.icon {
+        padding-bottom: 20px;
+      }
+      
+    
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'courier new', sans-serif;
+        font-size: 10px;
         display: block;
-    }
+        font-weight: 300;
+        text-align: left;
+       
+      }
+      
+      .topnav a.icon {
+      
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: plum;
+       
+      }
+      
+      .active {
+    
+       color: white;
+      }
+
+
+
+
+
+
 
     #form-container {
         max-width: 90%;
