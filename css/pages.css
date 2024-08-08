@@ -404,13 +404,13 @@ textarea {
 
     #home, #about, #contact {
         font-size: 14px;
-        padding: 8px 0;
+        padding: 8px 10px;
     }
 
     .mobile-container {
         max-width: 480px;
         margin: auto;
-       
+        padding: 10;
         height: 500px;;
         border-radius: 10px;
         display: block;
@@ -425,7 +425,7 @@ textarea {
       
       .topnav a {
         color: black;
-        padding: 14px 16px;
+        padding: 10px;
         text-decoration: none;
         font-family: 'courier new', sans-serif;
         font-size: 14px;
@@ -441,6 +441,7 @@ textarea {
         position: absolute;
         right: 0;
         top: 0;
+        padding: 10px;
       }
       
       .topnav a:hover {

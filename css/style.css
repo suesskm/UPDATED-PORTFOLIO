@@ -352,8 +352,8 @@ h2{
     }
 
     #home, #about, #contact {
-        font-size: 16px;
-        padding: 5px 0;
+        font-size: 14px;
+        padding: 9px 10px;
     }
 
     .parent-container {
@@ -384,6 +384,57 @@ h2{
     h2 {
         font-size: 18px;
     }
+
+
+    .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        padding: 10;
+        height: 500px;;
+        border-radius: 10px;
+        display: block;
+        padding-bottom: 20px;
+      }
+      
+    
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'courier new', sans-serif;
+        font-size: 14px;
+        display: block;
+        font-weight: 300;
+        text-align: left;
+       
+      }
+      
+      .topnav a.icon {
+      
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 10px;
+      }
+      
+      .topnav a:hover {
+        background-color: plum;
+       
+      }
+      
+      .active {
+    
+       color: white;
+      }
+
+
+
 
 
 
