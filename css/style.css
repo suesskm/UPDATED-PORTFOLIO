@@ -247,14 +247,14 @@ h2{
     opacity: 0.3;
 }
 
-#risocal{
+#riso{
     width: 100%;
     object-fit: cover;
     height: 90%;
     object-position: 50% 80%;
 }
 
-#risocal:hover{
+#riso:hover{
     opacity: 0.3;
 }
 
@@ -347,7 +347,6 @@ h2{
 @media screen and (max-width: 480px) {
 
 
-
     .flex-container-header {
       display: none;
     }
@@ -369,7 +368,24 @@ h2{
         margin: 5px 0; /* Reduce margin */
     }
 
+    .images {
+        width: 100%; /* Ensure container is full width */
+        height: 25vh; /* Set a consistent height for images */
+    }
+
+    .images img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures all images cover the container */
+    }
+
+
+
     h2 {
         font-size: 18px;
     }
+
+
+
+
 }
