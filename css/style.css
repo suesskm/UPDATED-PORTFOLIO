@@ -370,7 +370,7 @@ h2{
 
     .images {
         width: 100%; /* Ensure container is full width */
-        height: 25vh; /* Set a consistent height for images */
+        height: 50vh; /* Set a consistent height for images */
     }
 
     .images img {
