@@ -268,3 +268,69 @@ h2{
 #perfect-cup:hover{
     opacity: 0.3;
 }
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 768px) {
+    .flex-container-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .flex-container1, .flex-container2, .flex-container3, .flex-container4,
+    .flex-container5, .flex-container6, .flex-container7, .flex-container8 {
+        width: 48%; /* Two columns */
+        height: 45vh;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .flex-container-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #home, #about, #contact {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .parent-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-container1, .flex-container2, .flex-container3, .flex-container4,
+    .flex-container5, .flex-container6, .flex-container7, .flex-container8 {
+        width: 100%; /* Full width */
+        height: auto; /* Auto height to fit content */
+        margin: 5px 0; /* Reduce margin */
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
