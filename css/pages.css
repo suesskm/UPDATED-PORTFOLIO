@@ -36,11 +36,10 @@ canvas{
 .flex-container-images {
     display: flex;
     flex-direction: column;
-    width: 75%; /* Adjust the width as needed */
+    width: 80%; /* Adjust the width as needed */
     height: auto;
     flex-wrap: wrap;
    
-    padding: 10px;
 
    
 }
@@ -128,7 +127,8 @@ h4{
     margin-top: 0px;
     padding-bottom:20px;
     margin-bottom: 0px;
-    padding-left: 30px;
+    padding-left: 10px;
+   
 }
 
 
