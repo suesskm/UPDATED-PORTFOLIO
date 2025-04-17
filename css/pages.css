@@ -39,6 +39,8 @@ canvas{
     width: 80%; /* Adjust the width as needed */
     height: auto;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
    
 
    
@@ -174,6 +176,11 @@ h4{
 
 #aboutme{
     width: 80%;
+
+}
+
+#gif-image{
+    width: 50%;
 
 }
 p{
