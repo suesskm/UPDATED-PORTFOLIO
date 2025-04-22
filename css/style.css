@@ -1,162 +1,207 @@
 body{
     margin:0;
+    cursor: url("media/images/star-4pt-round.svg"), auto;
 }
 canvas{
     display:block;
 }
 
+
 a{
     text-decoration: none;
    color: black;
+   
 
 }
 
+a:hover {
 
-
-.flex-container-header{
-display: flex;
-flex-direction: row;
-border: dotted black 1px;
-justify-content: space-between;
-font-family: 'courier new', serif;
-padding-top: 10px;
-font-size: 16px;
-padding-left: 5px;
-padding-right: 5px;
-color: black;
+    text-shadow: 0 0 12px pink, 0 0 20px hotpink;
 }
+   
+.hover-link {
+    cursor: url('media/images/star-4pt-round.png'), pointer;
+  }
+  
+  .preview-area {
+    cursor: url('media/images/star-4pt-round.png'), auto;
+  }
 
-#home{
-    font-size: 20px;
-    color: black;
-    padding-left: 10px;
-}
-
-#home:hover{
-    background-color: yellow;
-
-}
-
-#about{
-    font-size: 18px;
-    color: black;
-    padding-left: 10px;
-}
-
-#about:hover{
-    background-color: yellow;
-}
-
-#contact{
-    font-size: 18px;
-    color: black;
-    padding-left: 10px;
-}
-
-#contact:hover{
-    background-color: yellow;
-}
-
-.parent-container{
+.layout {
     display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    flex-direction: row;
-
-}
-
-.flex-container1{
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+ 
+  }
+  
+  .project-list {
     display: flex;
     flex-direction: column;
-    width: 24%;
-    height: 55vh;
+   
+  
+  }
+  
+  .hover-link {
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    font-family: 'archivo', sans-serif;
+    font-weight: 100;
+    padding: 4px;
+    
+   
+  }
+  
+  .hover-link:hover {
+    color: pink;
+  }
+  
+  .preview-area {
+
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+ 
+    overflow: hidden;
+
+    width: 80%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+
+    margin-left: 100px;
+    margin-right: auto;
+   
+   
+    
+  }
+  
+  .preview-area img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain; /* Prevents distortion */
+   align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    filter: drop-shadow 1 1 10px rgba(0, 0, 0, 0.5);
+  
+   
+  }
+  
+
+#background-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5%;
+    height: 5%;
+    object-fit: cover;
+    z-index: -1; /* Behind other content */
+   
+}
+
+#logo2{
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    width: 5%;
+    height: 8%;
+
+    z-index: -1; /* Behind other content */
+}
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 95%;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'archivo', sans-serif;
+  }
+  
+  .logo {
+    font-size: 36px;
+    /* font-family: 'Almendra Display', serif; */
+    font-family: 'pinyon script', cursive;
+    font-weight: 100;
+    font-weight: bold;
+  }
+
+#image{
+    width: 100%;
+}
+
+
+
+
+.parent-container {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly */
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    align-items: flex-start; /* Optional: align top edges */
+
+  }
+
+
+  
+
+
+
+
+  .flex-container-text {
+    display: none;
+    flex-direction: column;
+    width: 20%;              /* stays narrow */
+    height: auto;
+    flex-wrap: wrap;
+    margin-left: 0;
+    justify-content: flex-start;   /* correct keyword */
+    align-items: flex-start;       /* correct keyword */
+    background-color: pink;
+   
+}
+
+.flex-container-images {
+    display: none;
+    flex-direction: column;
+    width: 80%; /* Adjust the width as needed */
+    height: auto;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10px;
-    /* object-fit: contain; */
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-top:10px;
-}
+    align-items: center;
 
-.flex-container2{
-    display: flex;
-    flex-direction: column;
-    width: 24%;
-    height: 55vh;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    object-fit: contain;
-    margin-top:10px;
-}
 
-.flex-container3{
-    display: flex;
-    flex-direction: column;
-    width: 24%;
-    height: 55vh;
-    margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    object-fit: contain;
-    margin-top:10px;
-}
-
-.flex-container4{
-    display: flex;
-    flex-direction: column;
-    width: 24%;
-    height: 55vh;
-    margin-bottom: 10px;
-    object-fit: contain;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top:10px;
+   
 }
 
 
-.flex-container5{
+.flex-container{
     display: flex;
     flex-direction: column;
-    width: 24%;
-    height: 55vh;
-    margin-bottom: 10px;
-    object-fit: contain;
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-top:10px;
-}
-
-.flex-container6{
-    display: flex;
-    flex-direction: column;
-    width: 24%;
-    height: 55vh;
-    margin-bottom: 10px;
-    object-fit: contain;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top:10px;
-}
-
-.flex-container7{
-    display: flex;
-    flex-direction: column;
-    width: 24%;
-    height: 55vh;
-    margin-bottom: 10px;
-    object-fit: contain;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top:10px;
-}
-
-.flex-container8{
-    display: flex;
-    flex-direction: column;
-    width: 24%;
-    height: 55vh;
+    width: 60%;
+    height: auto;
     margin-bottom: 10px;
     object-fit: contain;
     margin-left: 5px;
@@ -351,7 +396,28 @@ h2:hover{
 
 
 @media screen and (max-width: 480px) {
+.header{
+    display: none;
+}
 
+.logo{
+    display: none;
+}
+
+.layout{
+    display: none;
+}
+
+.project-list{
+    display: none;
+}
+
+    .flex-container-images{
+    display: block;
+}
+
+.flex-container-text{
+    display: block;}
 
     .flex-container-header {
       display: none;
