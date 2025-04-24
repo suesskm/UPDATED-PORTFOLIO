@@ -433,7 +433,7 @@ h2:hover{
         align-items: center;
     }
 
-    .flex-container1, .flex-container2, .flex-container3, .flex-container4,
+    .flex-container, .flex-container1, .flex-container2, .flex-container3, .flex-container4,
     .flex-container5, .flex-container6, .flex-container7, .flex-container8 {
         width: 100%; /* Full width */
         height: auto; /* Auto height to fit content */
