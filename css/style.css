@@ -224,7 +224,8 @@ a:hover {
 }
 
 h2{
-    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-family: 'archivo', sans-serif;
     font-size: 14px;
    font-weight: bold;
     padding-bottom: 20px;
@@ -478,10 +479,10 @@ h2:hover{
         color: black;
         padding: 10px;
         text-decoration: none;
-        font-family: 'courier new', sans-serif;
+        font-weight: 100;
+    font-family: 'archivo', sans-serif;
         font-size: 14px;
         display: block;
-        font-weight: 300;
         text-align: left;
        
       }
